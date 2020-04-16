@@ -32,7 +32,7 @@ function whisper(string){
 */
 
 function logShout(string){
-  console.log(string.toUpperCase);
+  console.log(string.toUpperCase());
 }
 
 /* Exercise 4: describe('logWhisper(string)', function() {
@@ -49,7 +49,7 @@ function logShout(string){
 */
 
 function logWhisper(string){
-  console.log(string.toLowerCase)
+  console.log(string.toLowerCase())
 }
 
 /* Exercise 5: describe('sayHiToGrandma(string)', function() {
