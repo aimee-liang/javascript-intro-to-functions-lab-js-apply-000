@@ -1,3 +1,9 @@
+/* Exercise 1: describe('shout(string)', function() {
+  it('receives one argument and returns it in all caps', function() {
+    expect(shout('hello')).toEqual('HELLO')
+  })
+})
+*/ 
 function shout(string){
   return string.toUpperCase()
 }
@@ -11,5 +17,6 @@ function shout(string){
 function whisper(string){
   return string.toLowerCase()
 }
+
 /* Exercise 3: 
 */
